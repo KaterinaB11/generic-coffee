@@ -1,0 +1,81 @@
+.our-story__content{
+    width: 80vw;
+    padding-left: 6rem;
+    padding-right: 6rem;
+    padding-top: 2rem;
+    h1{
+        @include h1;
+      }
+    h2{
+        @include h2;
+    }
+    .main__img{
+        width: 80vw;
+      }
+      .main__text{
+            width: 80vw;
+            display: block;
+      }
+    .about-us{
+        width: 80vw;
+        display: flex;
+        justify-content: space-between;
+        gap: 3rem;
+    }
+            .about-us__img{
+                width: 18rem;
+            }
+            h3{
+                @include h2;
+            }
+            .about-us__text{
+                width: 35vw;
+            }
+          }
+
+
+@media (max-width: 750px) {
+  .our-story__content{
+    width: 80vw;
+    padding-left: 6rem;
+    padding-right: 6rem;
+    padding-top: 2rem;
+    .main__img{
+      width: 70vw;
+    }
+    .main__text{
+        width: 70vw;
+    }
+    .about-us{
+      width: 70vw;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+        .about-us__img{
+            width: 50vw;
+        }
+        .about-us__text{
+          width: 70vw;
+      }
+        
+        }
+
+  .container .text{
+    font-size: 30px;
+  }
+  .container form{
+    padding: 10px 0 0 0;
+  }
+  .container form .form-row{
+    display: block;
+  }
+  form .form-row .input-data{
+    margin: 35px 0!important;
+  }
+  .submit-btn .input-data{
+    width: 40vw!important;
+  }
+}
+
+  
